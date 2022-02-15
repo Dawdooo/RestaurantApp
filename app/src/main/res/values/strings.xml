@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">RestaurantApp</string>
+    <string name="title_activity_delivery">DeliveryActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="resLogo">David\'s burger</string>
+    <string name="foodtruckDescription">RENT OURS FOOD TRUCK </string>
+    <string name="mapDescription">Check the locations of our restaurants on the map:</string>
+    <string name="sendMsgTxt">write to us at contact@burger.com or use the message sending function:</string>
+    <string name="callMsgTxt">call us and book a table for your visit or ask for something else:</string>
+    <string name="goToMapTxt">Visit us stationary, you can find the list of addresses on the map:</string>
+    <string name="Success">"Your order has been successfully completed</string>
+    <string name="whenPickUp">Visit us stationary, you can find the list of addresses on the map:</string>
+    <string name="foodtruckTxt">Also enjoy delicious burgers from our mobile Food Truck. It can also be rented for a private event. We invite you to add Food Truck all over Poland! For more, write to us at contact@burger.com or:</string>
+    <string name="galleryDescription">CHECK OUT OUR PHOTO GALLERY </string>
+    <string name="deliveryDescription">CHECK WHERE WE DELIVER!</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
+

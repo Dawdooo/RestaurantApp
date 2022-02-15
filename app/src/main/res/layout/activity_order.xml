@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderActivity">
+
+
+    <TextView
+        android:id="@+id/subtotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="16dp"
+        android:text="Subtotal"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/subtotalValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="64dp"
+        android:text="99$"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/delivery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="16dp"
+        android:text="Delivery cost"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subtotal" />
+
+    <TextView
+        android:id="@+id/deliveryValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="64dp"
+        android:text="2$"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subtotalValue" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="16dp"
+        android:text="Total"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/delivery" />
+
+    <TextView
+        android:id="@+id/totalValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="64dp"
+        android:text="99$"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/deliveryValue" />
+
+    <EditText
+        android:id="@+id/phoneNumberOrder"
+        android:layout_width="305dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/item_shape"
+        android:ems="10"
+        android:hint="Phone number"
+        android:textSize="16sp"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameOrder"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/nameOrder"
+        android:layout_width="305dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/item_shape"
+        android:ems="10"
+        android:hint="Name"
+        android:textSize="16sp"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/total"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/adressOrder"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/item_shape"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:paddingLeft="10dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/numberOrder"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phoneNumberOrder"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/cityOrder"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/item_shape"
+        android:ems="10"
+        android:hint="City"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:paddingLeft="10dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/apartamentOrder"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adressOrder"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/numberOrder"
+        android:layout_width="105dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="44dp"
+        android:background="@drawable/item_shape"
+        android:ems="10"
+        android:hint="Number"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:paddingLeft="10dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/adressOrder"
+        app:layout_constraintTop_toBottomOf="@+id/phoneNumberOrder"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/finallyOrderBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/green"
+        android:text="order"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/noteOrder"
+        android:layout_width="305dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/item_shape"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Add note(optional)"
+        android:inputType="textMultiLine"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cityOrder"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="We currently offer only cash payment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/noteOrder" />
+
+    <EditText
+        android:id="@+id/apartamentOrder"
+        android:layout_width="105dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="44dp"
+        android:background="@drawable/item_shape"
+        android:ems="10"
+        android:hint="Apartament"
+        android:inputType="number"
+        android:paddingLeft="10dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/cityOrder"
+        app:layout_constraintTop_toBottomOf="@+id/numberOrder"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

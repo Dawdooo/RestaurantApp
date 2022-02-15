@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "101487537811",
+    "project_id": "restaurantapp-bd118",
+    "storage_bucket": "restaurantapp-bd118.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101487537811:android:b31c6587ac1dc88f926766",
+        "android_client_info": {
+          "package_name": "com.example.restaurantapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101487537811-4f8sb46e0ba923a30kjj2ka44gomev85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHdkPTS8k-ehTxuZg5KQlNb9OIIeQMTW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101487537811-4f8sb46e0ba923a30kjj2ka44gomev85.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
