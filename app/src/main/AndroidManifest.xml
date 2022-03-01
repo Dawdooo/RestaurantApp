@@ -13,15 +13,19 @@
         android:theme="@style/Theme.RestaurantApp">
         <activity
             android:name=".SuccessOrderActivity"
+            android:screenOrientation = "portrait"
             android:exported="false" />
         <activity
             android:name=".OrderActivity"
+            android:screenOrientation = "portrait"
             android:exported="false" />
         <activity
             android:name=".SendMessage"
+            android:screenOrientation = "portrait"
             android:exported="false" />
         <activity
             android:name=".ContactActivity"
+            android:screenOrientation = "portrait"
             android:exported="false" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -37,23 +41,29 @@
 
         <activity
             android:name=".GalleryActivity"
+            android:screenOrientation = "portrait"
             android:exported="false" />
         <activity
             android:name=".restaurantsActivity"
+            android:screenOrientation = "portrait"
             android:exported="false" />
         <activity
             android:name=".FoodTruckActivity"
+            android:screenOrientation = "portrait"
             android:exported="false" />
         <activity
             android:name=".DeliveryActivity"
             android:exported="false"
+            android:screenOrientation = "portrait"
             android:label="@string/title_activity_delivery"
             android:theme="@style/Theme.RestaurantApp.NoActionBar" />
         <activity
             android:name=".MenuActivity"
+            android:screenOrientation = "portrait"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:screenOrientation = "portrait"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
